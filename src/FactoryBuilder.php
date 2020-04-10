@@ -5,7 +5,7 @@ namespace ekstazi\websocket\server\amphp;
 use ekstazi\websocket\server\ServerFactory as ServerFactoryInterface;
 use Psr\Container\ContainerInterface;
 
-class FactoryBuilder
+final class FactoryBuilder
 {
     public function __invoke(ContainerInterface $container): ServerFactoryInterface
     {

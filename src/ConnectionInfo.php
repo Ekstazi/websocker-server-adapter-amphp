@@ -5,7 +5,7 @@ namespace ekstazi\websocket\server\amphp;
 use Amp\Http\Server\Driver\Client;
 use ekstazi\websocket\server\ConnectionInfo as ConnectionInfoInterface;
 
-class ConnectionInfo implements ConnectionInfoInterface
+final class ConnectionInfo implements ConnectionInfoInterface
 {
     /**
      * @var Client

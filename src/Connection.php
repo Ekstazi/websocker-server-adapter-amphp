@@ -9,7 +9,7 @@ use ekstazi\websocket\server\Connection as ConnectionInterface;
 use ekstazi\websocket\server\ConnectionInfo as ConnectionInfoInterface;
 use ekstazi\websocket\server\internal\ConnectionInfoTrait;
 
-class Connection extends BaseConnection implements ConnectionInterface
+final class Connection extends BaseConnection implements ConnectionInterface
 {
     use ConnectionInfoTrait;
 

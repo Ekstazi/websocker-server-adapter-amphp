@@ -16,7 +16,7 @@ use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use function Amp\call;
 
-class Server implements ServerInterface
+final class Server implements ServerInterface
 {
     /**
      * @var Router

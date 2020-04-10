@@ -8,7 +8,7 @@ use ekstazi\websocket\server\Server as ServerInterface;
 use ekstazi\websocket\server\ServerFactory as ServerFactoryInterface;
 use Psr\Log\LoggerInterface;
 
-class ServerFactory implements ServerFactoryInterface
+final class ServerFactory implements ServerFactoryInterface
 {
     /**
      * @var Options

@@ -17,7 +17,7 @@ use ekstazi\websocket\common\amphp\Writer;
 use ekstazi\websocket\server\Handler as HandlerInterface;
 use function Amp\call;
 
-class Handler implements ClientHandler
+final class Handler implements ClientHandler
 {
     /**
      * @var Handler
